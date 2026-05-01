@@ -13,7 +13,3 @@ def roman_numerals_converter(num):
             num = num - values[i]
     return roman_numeral 
 
-# User Input 
-x = int(input("Input an integer from 1-3999 here: "))
-roman_numerals_converter(x)
-print(roman_numerals_converter(x))
